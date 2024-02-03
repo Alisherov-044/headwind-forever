@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    *::-webkit-scrollbar {
+        @apply w-2 bg-transparent;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        @apply bg-violet-500 rounded-xl;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}

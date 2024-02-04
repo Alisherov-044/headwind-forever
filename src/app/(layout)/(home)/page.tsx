@@ -4,6 +4,7 @@ import { Feature } from "./sections/feature";
 import { Pricing } from "./sections/pricing";
 import { Stats } from "./sections/stats";
 import { CTA } from "./sections/cta";
+import { LogoCloud } from "./sections/logoCloud";
 
 export default function Home() {
     return (
@@ -24,6 +25,7 @@ export default function Home() {
             <Hero />
             <Feature />
             <Stats />
+            <LogoCloud />
             <CTA />
             <Pricing />
         </main>

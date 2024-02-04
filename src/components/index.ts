@@ -7,3 +7,4 @@ export { Footer } from "./layout/footer";
 export * as form from "./form/form";
 export { Input } from "./form/input";
 export { Label } from "./form/label";
+export { Textarea } from "./form/textarea";

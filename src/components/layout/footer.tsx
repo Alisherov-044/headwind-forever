@@ -14,14 +14,9 @@ import {
 import { zodResolver } from "@hookform/resolvers/zod";
 
 const formSchema = z.object({
-    email: z
-        .string()
-        .email({
-            message: "email must be a valid.",
-        })
-        .min(6, {
-            message: "email must be at least 8 characters.",
-        }),
+    email: z.string({ required_error: "email is required" }).email({
+        message: "email must be a valid.",
+    }),
 });
 
 export function Footer() {
@@ -32,6 +27,7 @@ export function Footer() {
 
     const onSubmit = (event: z.infer<typeof formSchema>) => {
         console.log(event.email);
+        form.reset();
     };
 
     return (
@@ -87,6 +83,7 @@ export function Footer() {
                                         <FormItem className="xl:grow">
                                             <FormControl>
                                                 <Input
+                                                    type="email"
                                                     placeholder="Enter you email"
                                                     {...field}
                                                 />

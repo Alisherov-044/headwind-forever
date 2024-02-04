@@ -64,7 +64,7 @@ export function Footer() {
                         ))}
                     </div>
                     <div className="flex flex-col gap-y-4 xl:w-[450px]">
-                        <h2 className="text-sm font-semibold">
+                        <h2 className="font-semibold">
                             Subscribe to our newsletter
                         </h2>
                         <p className="text-sm leading-6 text-slate-500 max-w-[360px]">

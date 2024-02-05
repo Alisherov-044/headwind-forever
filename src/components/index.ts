@@ -8,3 +8,4 @@ export * as form from "./form/form";
 export { Input } from "./form/input";
 export { Label } from "./form/label";
 export { Textarea } from "./form/textarea";
+export { Checkbox } from "./form/checkbox";

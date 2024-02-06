@@ -10,7 +10,7 @@ export function LogoCloud() {
     ];
 
     return (
-        <section className="flex flex-col p-5 gap-y-7 max-w-[1340px] mx-auto mt-5">
+        <section className="flex flex-col p-5 gap-y-7 max-w-[1340px] mx-auto my-32">
             <h2 className="text-center font-semibold text-lg">
                 Trusted by the world&apos;s most innovative teams
             </h2>

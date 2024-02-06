@@ -21,7 +21,7 @@ export function Header() {
     const [collapsed, setCollapsed] = useState<boolean>(true);
 
     return (
-        <header className="relative flex items-center justify-between p-5 max-w-[1500px] mx-auto">
+        <header className="relative w-full flex items-center justify-between p-5 max-w-[1500px] mx-auto">
             <Link href="/" className="inline-block w-12 p-1.5">
                 <Icons.logo />
             </Link>

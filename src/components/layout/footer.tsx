@@ -31,7 +31,7 @@ export function Footer() {
     };
 
     return (
-        <footer className="relative p-5 pt-14 mt-10 border-t">
+        <footer className="relative w-full p-5 pt-14 mt-10 border-t">
             <div className="flex flex-col max-w-[1340px] mx-auto divide-y">
                 <div className="flex flex-col gap-y-10 pb-10 xl:flex-row xl:justify-between xl:gap-x-20">
                     <div className="flex justify-around shrink-0 xl:w-2/4 xl:gap-x-20">

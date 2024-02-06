@@ -11,7 +11,16 @@
         @apply bg-violet-500 rounded-xl;
     }
 
+    html,
     body {
-        overflow-x: hidden;
+        @apply h-full;
+    }
+
+    body {
+        @apply flex flex-col justify-between;
+    }
+
+    body > main {
+        @apply flex-auto;
     }
 }

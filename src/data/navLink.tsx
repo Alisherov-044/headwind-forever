@@ -77,7 +77,7 @@ export const navLinks: TNavLink[] = [
     {
         id: 2,
         title: "Features",
-        url: "#",
+        url: "/features",
     },
     {
         id: 3,
